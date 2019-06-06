@@ -1,0 +1,17 @@
+User-agent: Yandex
+Allow: /
+Disallow: /assets/
+Disallow: /_includes/
+Disallow: /_layouts/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /assets/
+Disallow: /_includes/
+Disallow: /_layouts/
+
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /_includes/
+Disallow: /_layouts/
