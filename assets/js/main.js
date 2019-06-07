@@ -59,12 +59,13 @@
 	$('.screenshot-wrap').slick({
 		autoplay: true,
 		dots: true,
+		arrows: true,
 		autoplaySpeed: 1000,
 		slidesToShow: 3,
-		centerPadding: '20%',
-		centerMode: true,
-		prevArrow: '',
-		nextArrow: '',
+		centerPadding: '0%',
+		centerMode: false,
+		prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+		nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
 		responsive: [{
 
 		  breakpoint: 992,
