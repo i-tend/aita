@@ -276,7 +276,8 @@ textarea:focus {
     display: inline-block;
     text-transform: uppercase;
 	cursor: pointer;
-	font-weight: 500;
+    font-weight: 500;
+    
 }
 .header.sticky .mainmenu li a.appao-btn:hover ,
 .mainmenu li a.appao-btn:hover,
@@ -339,6 +340,7 @@ input::-webkit-input-placeholder {
 .mainmenu li a {
     display: inline-block;
     color: #fff;
+    font-size: 16px;
     position: relative;
     padding: 5px 16px;
 	margin: 0 3px;
@@ -1555,7 +1557,7 @@ ul.timeline:before {
     left: 29px;
     width: 2px;
     height: 100%;
-    z-index: 400;
+    z-index: 1;
 }
 ul.timeline > li {
     margin: 20px 0;
@@ -1571,7 +1573,7 @@ ul.timeline > li:before {
     left: 20px;
     width: 20px;
     height: 20px;
-    z-index: 400;
+     z-index: 1; 
 }
 
 .timeline a{
@@ -1583,4 +1585,16 @@ ul.timeline > li:before {
     font-size: 90%;
     color: gray;
     font-style: italic;
+}
+
+.single-about-box img {
+    object-fit: cover;
+}
+.dropdown-menu {
+    width: unset;
+    background-color: #172373 ;
+
+}
+.dropdown-item {
+    display: block !important;
 }
