@@ -64,3 +64,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - fotos
+theme: jekyll-theme-minimal
